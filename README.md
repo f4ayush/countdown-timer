@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [github](https://github.com/f4ayush/countdown-timer)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github repo](https://github.com/f4ayush/countdown-timer)
+- Live Site URL: [Github page](https://f4ayush.github.io/countdown-timer/)
 
 ## My process
 
