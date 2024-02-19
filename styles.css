@@ -13,7 +13,7 @@ body {
     font-family: "Red Hat Text", sans-serif;
     font-weight: 700;
     color: white;
-    background-color:rgb(32,30,41);
+    background-color: rgb(32, 30, 41);
 }
 
 main {
@@ -115,28 +115,45 @@ main {
 
 }
 
-@media (max-width: 375px) {
-    
+@media (max-width: 600px) {
+    body{
+        overflow: hidden;
+    }
     main {
-        padding: 15% 2%;
+        padding: 15% 0%;
         background: url("./images/bg-stars.svg") top left repeat,
             url("./images/pattern-hills.svg") bottom no-repeat;
         background-size: contain;
+        
     }
-    
+
     .timer {
-        font-size: 8px;
-        margin: 15% 2%;
-        padding: 5%;
+        font-size: 6px;
+        margin: 15% 0%;
+        /* padding: 5%; */
+        justify-content: center;
+        gap: 5%;
     }
+
+    .card {
+        padding: unset;
+        
+    }
+
     .card>p:first-child {
         padding: 25px;
-        font-size: 30px;
-        height: 60px;
-        width: 60px;
+        font-size: 25px;
+        height: 50px;
+        width: 50px;
     }
+
     .label {
         letter-spacing: 2px;
         text-align: center;
     }
+}
+
+
+@media (max-width: 768px) {
+    
 }
